@@ -473,11 +473,11 @@ const Shipments = () => {
                 </div>
 
                 <div className="px-4 pb-10 pt-10 md:pt-0 lg:px-16 lg:pb-16">
-                    <div className="flex items-center justify-center pb-10 pt-10 md:pb-0 lg:pt-16 h-[218px]">
+                    <div className="flex items-center justify-center pb-10 pt-8 md:pb-0 lg:pt-14 h-[218px]">
                         <div className="p-1 rounded-full border border-gray-200 mx-auto transition-all duration-200 ease-in-out hover:scale-[105%]">
-                            <div className="font-display uppercase font-semibold border-[10px] border-red-500 rounded-full w-[7rem] h-[7rem] pt-4 text-center">
+                            <div className="font-display uppercase font-semibold border-[12px] border-red-500 rounded-full w-[7.5rem] h-[7.5rem] pt-5 text-center">
                                 <div className="mb-[1px]">Alt</div>
-                                <div className="h-[3px] w-10 bg-black rounded mx-auto mb-[1px]"></div>
+                                <div className="h-[4px] w-14 bg-black rounded-full mx-auto mb-[1px]"></div>
                                 <div>Dogana</div>
                             </div>
                         </div>

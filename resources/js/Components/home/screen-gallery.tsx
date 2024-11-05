@@ -46,7 +46,7 @@ const ScreenGallery = () => {
             <div
                 className="h-auto w-[calc(100%-4rem)] max-w-5xl mx-auto relative aspect-[1.5] [--radius:theme(borderRadius.xl)]"
             >
-                <div className="absolute -inset-[var(--padding)] rounded-[calc(var(--radius)+var(--padding))] shadow-sm ring-1 ring-black/5 [--padding:theme(spacing.2)]"></div>
+                <div className="absolute -inset-[var(--padding)] rounded-[calc(var(--radius)+var(--padding))] shadow-sm ring-1 ring-black/5 [--padding:theme(spacing.1)] md:[--padding:theme(spacing.2)]"></div>
 
                 {/* Rendering delle immagini con visibilità basata sull'indice attivo */}
                 {images.map((image, index) => (
