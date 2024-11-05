@@ -8,7 +8,7 @@ const ScreenGallery = () => {
 
     // Array delle immagini
     const images = [
-        { id: "ordini", src: "images/ordini.png", alt: "Ordini", text:"Ordini", icon: <ShoppingCartIcon className="size-4 text-black" strokeWidth={2}/>},
+        { id: "ordini", src: "images/ordini.png", alt: "Ordini", text:"Ordini", icon: ""},
         { id: "giacenza", src: "images/giacenza.png", alt: "Giacenza", text:"Giacenza", icon:""},
         { id: "spedizioni", src: "images/spedizioni.png", alt: "Spedizioni", text:"Spedizioni", icon:""},
         { id: "operazioni", src: "images/operazioni.png", alt: "Operazioni", text:"Operazioni", icon:""},
@@ -44,8 +44,7 @@ const ScreenGallery = () => {
 
             {/* Contenitore immagini */}
             <div
-                style={{ width: 1002, height: 668 }}
-                className="h-[16rem] sm:h-auto sm:w-[30rem] mx-auto relative aspect-[var(--width)/var(--height)] [--radius:theme(borderRadius.xl)]"
+                className="h-auto w-[calc(100%-4rem)] max-w-5xl mx-auto relative aspect-[1.5] [--radius:theme(borderRadius.xl)]"
             >
                 <div className="absolute -inset-[var(--padding)] rounded-[calc(var(--radius)+var(--padding))] shadow-sm ring-1 ring-black/5 [--padding:theme(spacing.2)]"></div>
 
