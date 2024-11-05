@@ -25,7 +25,7 @@ const Nav = () => {
             } animate-slide-down-fade justify-center overflow-hidden rounded-full border px-1 py-1 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1.03)] will-change-transform`}
         >
 
-            <div className="w-full md:my-auto">
+            <div className="w-full overflow-y-hidden md:my-auto">
                 <div className="relative flex items-center justify-between">
                     {/* Logo */}
                     <a aria-label="Home" href="/">
