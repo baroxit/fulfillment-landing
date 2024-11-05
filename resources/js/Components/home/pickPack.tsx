@@ -6,7 +6,7 @@ import GridPattern from "@/Components/ui/grid-pattern";
 const PickPack = () => {
     return (
         <div>
-            <div className="relative mx-auto w-full max-w-[590px] py-12 text-center">
+            <div className="relative mx-auto w-full max-w-[590px] py-12 text-center max-[590px]:px-2">
 
                 <GridPattern
                     width={30}

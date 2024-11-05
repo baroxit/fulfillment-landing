@@ -29,7 +29,7 @@ export default function Home() {
                     </div>
                 </a>
                 <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.15] text-black sm:text-6xl sm:leading-[1.05]">Prendi il controllo della tua
-                <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent"> logistica</span>
+                <span className="bg-gradient-to-r from-[#956AFF] via-[#D76D77] to-[#fc5713] bg-clip-text text-transparent"> logistica</span>
                 </h1>
                 <h2 className="mt-5 text-gray-600 sm:px-3 sm:text-lg text-pretty"> è la soluzione completa per la gestione del tuo magazzino, pensata per i brand che vogliono crescere in fretta.</h2>
                 <div className="mx-auto mt-5 flex max-w-fit space-x-4">
