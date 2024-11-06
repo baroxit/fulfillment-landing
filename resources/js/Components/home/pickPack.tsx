@@ -4,6 +4,7 @@ import {cn} from "@/lib/utils";
 import GridPattern from "@/Components/ui/grid-pattern";
 import PickPickPack from "@/Components/home/pick-pack/PickPickPack";
 import PackPickPack from "@/Components/home/pick-pack/PackPickPack";
+import PrintPickPack from "@/Components/home/pick-pack/PrintPickPack";
 
 const PickPack = () => {
     return (
@@ -51,7 +52,7 @@ const PickPack = () => {
                 </div>
                 <div className="grid divide-y divide-gray-200 md:grid-cols-3 md:divide-x md:divide-y-0">
                     <div className="px-4 pb-10 pt-10 md:pt-0 lg:px-16 lg:pb-16">
-                        <div className="flex items-center justify-center pb-10 pt-3 md:pb-0 lg:pt-4 h-[218px] [mask-image:linear-gradient(to_bottom,black_75%,transparent)]">
+                        <div className="flex items-center justify-center pb-10 pt-6 md:pb-0 lg:pt-14 h-[180px] [mask-image:linear-gradient(to_bottom,black_75%,transparent)]">
                             <PickPickPack />
                         </div>
                         <h4 className="font-display mt-3 text-xl font-bold">Preleva</h4>
@@ -59,7 +60,7 @@ const PickPack = () => {
                         </p>
                     </div>
                     <div className="px-4 pb-10 pt-10 md:pt-0 lg:px-16 lg:pb-16">
-                        <div className="flex items-center justify-center pb-10 pt-3 md:pb-0 lg:pt-4 h-[180px] [mask-image:linear-gradient(to_bottom,black_75%,transparent)]">
+                        <div className="flex items-center justify-center pb-10 pt-6 md:pb-0 lg:pt-9 h-[180px] [mask-image:linear-gradient(to_bottom,black_75%,transparent)]">
                             <PackPickPack />
                         </div>
                         <h4 className="font-display mt-3 text-xl font-bold">Imballa</h4>
@@ -67,11 +68,12 @@ const PickPack = () => {
                         </p>
                     </div>
                     <div className="px-4 pb-10 pt-10 md:pt-0 lg:px-16 lg:pb-16">
-                        <div className="flex items-center justify-center pb-10 pt-8 md:pb-0 lg:pt-12 h-[180px] [mask-image:linear-gradient(to_bottom,black_75%,transparent)]">
+                        <div className="flex items-center justify-center pb-10 pt-8 md:pb-0 lg:pt-14 h-[180px] [mask-image:linear-gradient(to_bottom,black_75%,transparent)]">
                             <div className="flex justify-center">
+                                <PrintPickPack />
                             </div>
                         </div>
-                        <h4 className="font-display mt-3 text-xl font-bold">Spedisci</h4>
+                        <h4 className="font-display mt-3 text-xl font-bold">Stampa</h4>
                         <p className="mt-1 text-pretty text-sm text-gray-500">Ci integriamo direttamente con il tuo store online per rendere la gestione degli ordini e dei resi più semplice che mai. La scelta.
                         </p>
                     </div>
