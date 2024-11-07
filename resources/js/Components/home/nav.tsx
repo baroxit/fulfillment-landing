@@ -42,9 +42,9 @@ const Nav = () => {
                         </div>
                     </nav>*/}
                     {/* "Book a Demo" button */}
-                    <button className="relative rounded-full transition-all duration-100 ease-in-out max-w-fit border px-5 py-2 text-sm font-medium shadow-sm hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-black bg-black text-white hover:bg-gray-800">
+                    <a href="/signup" className="relative rounded-full transition-all duration-100 ease-in-out max-w-fit border px-5 py-2 text-sm font-medium shadow-sm hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-black bg-black text-white hover:bg-gray-800">
                         Iscriviti alla Beta
-                    </button>
+                    </a>
 
                 </div>
                 {/* Navigation for mobile

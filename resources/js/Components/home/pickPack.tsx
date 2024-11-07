@@ -9,7 +9,7 @@ import PrintPickPack from "@/Components/home/pick-pack/PrintPickPack";
 const PickPack = () => {
     return (
         <div>
-            <div className="relative mx-auto w-full max-w-[590px] pt-32 pb-12 text-center max-[590px]:px-2">
+            <div className="relative mx-auto w-full max-w-[590px] pt-32 pb-12 text-center max-[590px]:px-2" id="pickpack">
 
                 <GridPattern
                     width={30}

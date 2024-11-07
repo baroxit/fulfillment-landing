@@ -22,7 +22,7 @@ export default function Home() {
             </div>
 
             <div className="mx-auto my-10 mt-20 max-w-lg text-center sm:max-w-xl sm:px-0 z-10">
-                <a className="group mx-auto flex max-w-fit items-center justify-center gap-1 overflow-hidden rounded-full border border-gray-200 bg-white px-4 py-2 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.1)] backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50 sm:pr-7 sm:pl-4" href="/blog/soc2">
+                <a className="group mx-auto flex max-w-fit items-center justify-center gap-1 overflow-hidden rounded-full border border-gray-200 bg-white px-4 py-2 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.1)] backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50 sm:pr-7 sm:pl-4" href="#pickpack">
                     <p className="text-sm font-semibold text-gray-700 [text-wrap:balance]">🔥 Scopri la nuova funzione Pick&Pack</p>
                     <div className="group relative flex items-center">
                         <svg className="absolute transition-all group-hover:translate-x-1 group-hover:opacity-0 hidden size-3.5 sm:block" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"></path></svg>
@@ -34,8 +34,8 @@ export default function Home() {
                 </h1>
                 <h2 className="mt-5 text-gray-600 sm:px-3 sm:text-lg text-pretty"> è la soluzione completa per la gestione del tuo magazzino, pensata per i brand che vogliono crescere in fretta.</h2>
                 <div className="mx-auto mt-5 flex max-w-fit space-x-4">
-                    <a target="_blank" className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-black bg-black text-white hover:bg-gray-800" href="/beta">Iscriviti alla Beta</a>
-                    <a className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-gray-200 bg-white hover:border-gray-400 hover:text-gray-800 text-gray-500" href="/enterprise">Get a Demo</a>
+                    <a target="_blank" className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-black bg-black text-white hover:bg-gray-800" href="/signup">Iscriviti alla Beta</a>
+                    <a className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-gray-200 bg-white hover:border-gray-400 hover:text-gray-800 text-gray-500" href="/signup">Prova la demo</a>
                 </div>
             </div>
 
