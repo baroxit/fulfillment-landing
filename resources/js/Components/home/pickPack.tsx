@@ -35,7 +35,7 @@ const PickPack = () => {
             </div>
 
             <div className="mx-auto mt-4 w-full max-w-screen-lg divide-y divide-gray-200 border-y border-gray-200 bg-white/70 sm:[mask-image:linear-gradient(90deg,transparent,black_7%,black_93%,transparent)]">
-                <div className="grid divide-y divide-gray-200 md:grid-cols-3 md:divide-x md:divide-y-0">
+                <div className="grid divide-y divide-gray-200 md:grid-cols-3 md:divide-x md:divide-y-0 max-md:text-center">
                     <div className="flex flex-col gap-3 px-10 py-12 lg:px-20 lg:py-16">
                         <span className="text-sm font-medium uppercase text-gray-500">Ordini processati</span>
                         <span className="font-mono text-2xl font-semibold text-gray-800">
@@ -56,7 +56,7 @@ const PickPack = () => {
                             <PickPickPack />
                         </div>
                         <h4 className="font-display mt-3 text-xl font-bold">Preleva</h4>
-                        <p className="mt-1 text-pretty text-sm text-gray-500">Scegli e memorizza le posizioni degli articoli all'interno dei tuoi magazzini. Effettua dei conteggi ciclici della merce per verificare
+                        <p className="mt-1 text-pretty text-sm text-gray-500">Il terminale mostra in successione le varie visite da effettuare per il prelievo degli articoli dal magazzino, eliminando l'uso di supporti cartacei.
                         </p>
                     </div>
                     <div className="px-4 pb-10 pt-10 md:pt-0 lg:px-16 lg:pb-16">
@@ -64,7 +64,7 @@ const PickPack = () => {
                             <PackPickPack />
                         </div>
                         <h4 className="font-display mt-3 text-xl font-bold">Imballa</h4>
-                        <p className="mt-1 text-pretty text-sm text-gray-500">Ci integriamo direttamente con il tuo store online per rendere la gestione degli ordini e dei resi più semplice che mai. La scelta.
+                        <p className="mt-1 text-pretty text-sm text-gray-500">Scegli il tipo di imballaggio che preferisci utilizzare per la spedizione; in questo modo verranno registrate le dimensioni utilizzate poi per la creazione dell'etichetta.
                         </p>
                     </div>
                     <div className="px-4 pb-10 pt-10 md:pt-0 lg:px-16 lg:pb-16">
@@ -74,7 +74,7 @@ const PickPack = () => {
                             </div>
                         </div>
                         <h4 className="font-display mt-3 text-xl font-bold">Stampa</h4>
-                        <p className="mt-1 text-pretty text-sm text-gray-500">Ci integriamo direttamente con il tuo store online per rendere la gestione degli ordini e dei resi più semplice che mai. La scelta.
+                        <p className="mt-1 text-pretty text-sm text-gray-500">Una volta preparato l'ordine, le etichette e gli eventuali documenti necessari vengono inviati direttamente alle stampanti senza ulteriori azioni.
                         </p>
                     </div>
                 </div>
