@@ -9,7 +9,7 @@ import PrintPickPack from "@/Components/home/pick-pack/PrintPickPack";
 const PickPack = () => {
     return (
         <div>
-            <div className="relative mx-auto w-full max-w-[590px] py-12 text-center max-[590px]:px-2">
+            <div className="relative mx-auto w-full max-w-[590px] pt-32 pb-12 text-center max-[590px]:px-2">
 
                 <GridPattern
                     width={30}
@@ -17,7 +17,7 @@ const PickPack = () => {
                     x={-1}
                     y={-1}
                     className={cn(
-                        "z-[-1] absolute top-0 left-0 [mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+                        "z-[-1] absolute top-0 opacity-75 left-0 [mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
                     )}
                 />
 

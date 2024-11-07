@@ -21,8 +21,8 @@ const Nav = () => {
     return (
         <header
             className={`fixed inset-x-3 top-4 z-50 mx-auto flex transform-gpu ${
-                isScrolled ? "backdrop-blur-nav max-w-3xl border-gray-100 bg-white/80 shadow-xl shadow-black/5" : "max-w-6xl border-transparent"
-            } animate-slide-down-fade justify-center overflow-hidden rounded-full border px-1 py-1 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1.03)] will-change-transform`}
+                isScrolled ? "backdrop-blur-nav max-w-screen-lg border-gray-100 bg-white/80 shadow-xl shadow-black/5" : "max-w-6xl border-transparent"
+            } animate-slide-down-fade justify-center overflow-hidden rounded-full border px-1.5 py-1 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1.03)] will-change-transform`}
         >
 
             <div className="w-full overflow-y-hidden md:my-auto">

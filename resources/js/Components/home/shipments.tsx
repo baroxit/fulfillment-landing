@@ -3,7 +3,7 @@ import React from "react";
 const Shipments = () => {
     return (
         <div>
-        <div className="mx-auto w-full max-w-[590px] py-12 text-center max-[590px]:px-2">
+        <div className="mx-auto w-full max-w-[590px] pt-32 pb-12 text-center max-[590px]:px-2">
 
             <p className="uppercase text-base text-gray-600 font-mono font-medium mb-2">Spedizioni</p>
             {/* Title */}
