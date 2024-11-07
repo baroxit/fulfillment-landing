@@ -16,7 +16,7 @@ const PickPickPack = () => {
 
 
     return (
-        <div className="w-full pb-6 mx-2 px-2 pt-2 border rounded-lg shadow-sm bg-white">
+        <div className="w-full pb-6 mx-2 px-2 pt-2 border rounded-lg shadow-sm bg-white max-md:w-1/2">
             <div className="w-full py-1 border rounded-md text-center">
                 <div className="font-display text-sm font-semibold leading-tight text-gray-600"># B021 D001 C011</div>
             </div>

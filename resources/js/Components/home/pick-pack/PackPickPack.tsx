@@ -30,7 +30,7 @@ const PackPickPack = () => {
     const volumeWeight = (width * height * depth) / 5000;
 
     return (
-        <div className="w-full pb-8 px-2 pt-2 mx-1 border rounded-lg shadow-sm bg-white">
+        <div className="w-full pb-8 px-2 pt-2 mx-1 border rounded-lg shadow-sm bg-white max-md:w-1/2">
             {/*p-6 bg-gray-100 rounded-lg shadow-md max-w-md mx-auto */}
             <Select onValueChange={handlePackagingChange} value={selectedPackaging} defaultValue={"Busta"}>
                 <SelectTrigger className="w-full py-0 h-9">
