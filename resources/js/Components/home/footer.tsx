@@ -33,7 +33,7 @@ const Footer = () => {
 
             <div className="w-full max-w-screen-lg mx-auto py-6 px-12 border-y border-gray-200 bg-white/70 sm:[mask-image:linear-gradient(90deg,transparent,black_7%,black_93%,transparent)]">
                 <div className="relative md:flex items-center justify-between">
-                    <a href="https://flowbite.com/" className="max-md:justify-center flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <a href="https://flowbite.com/" className=" max-md:justify-center flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse hidden">
                         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                     </a>

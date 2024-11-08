@@ -32,7 +32,7 @@ export default function Home() {
                 <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.15] text-black sm:text-6xl sm:leading-[1.05]">Prendi il controllo della tua
                 <span className="bg-gradient-to-r from-[#956AFF] via-[#D76D77] to-[#fc5713] bg-clip-text text-transparent"> logistica</span>
                 </h1>
-                <h2 className="mt-5 text-gray-600 sm:px-3 sm:text-lg text-pretty"> è la soluzione completa per la gestione del tuo magazzino, pensata per i brand che vogliono crescere in fretta.</h2>
+                <h2 className="mt-5 text-gray-600 sm:px-3 sm:text-lg text-pretty">La soluzione completa per la gestione del tuo magazzino, pensata per i brand che vogliono crescere in fretta.</h2>
                 <div className="mx-auto mt-5 flex max-w-fit space-x-4">
                     <a target="_blank" className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-black bg-black text-white hover:bg-gray-800" href="/signup">Iscriviti alla Beta</a>
                     <a className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-gray-200 bg-white hover:border-gray-400 hover:text-gray-800 text-gray-500" href="/signup">Prova la demo</a>
