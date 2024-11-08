@@ -17,7 +17,7 @@ Route::get('/home', function () {
 });
 
 Route::get('/signup', function () {
-    return redirect('https://tn1rq3nm7g8.typeform.com/to/vLF5N9N8');
+    return redirect('https://calendly.com/giacomo-bari/30min');
 });
 
 Route::get('/dashboard', function () {
