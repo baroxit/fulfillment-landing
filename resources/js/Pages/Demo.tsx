@@ -10,13 +10,13 @@ export default function Demo() {
     }, [])
     return (
 
-    <div className="w-full pt-20 pb-52 text-center px-44">
+    <div className="w-full pt-10 md:pt-20 pb-52 text-center px-10 md:px-44">
         <h1 className="max-w-lg sm:max-w-2xl mx-auto mb-10 font-display text-4xl font-extrabold leading-[1.15] text-black sm:text-5xl sm:leading-[1.05]">Solo
             <span className="bg-gradient-to-r from-[#956AFF] via-[#D76D77] to-[#fc5713] bg-clip-text text-transparent"> 15 minuti </span>
             per scoprire come migliorare le tue operazioni.
         </h1>
 
-        <div className="rounded-xl p-2 shadow-sm ring-1 ring-black/5">
+        <div className="rounded-xl p-1 md:p-2 shadow-sm ring-1 ring-black/5">
             <div className="border rounded-lg">
                 <Cal namespace="demo"
                      calLink="giacomo-barilari/demo"
