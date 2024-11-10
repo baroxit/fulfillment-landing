@@ -17,6 +17,11 @@ Route::get('/home', function () {
 });
 
 Route::get('/signup', function () {
+    return Inertia::render('Beta');
+});
+
+
+Route::get('/demo', function () {
     return Inertia::render('Demo');
 });
 

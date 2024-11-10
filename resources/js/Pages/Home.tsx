@@ -35,7 +35,7 @@ export default function Home() {
                 <h2 className="mt-5 text-gray-600 sm:px-3 sm:text-lg text-pretty">La soluzione completa per la gestione del tuo magazzino, pensata per i brand che vogliono crescere in fretta.</h2>
                 <div className="mx-auto mt-5 flex max-w-fit space-x-4">
                     <a target="_blank" className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-black bg-black text-white hover:bg-gray-800" href="/signup">Iscriviti alla Beta</a>
-                    <a className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-gray-200 bg-white hover:border-gray-400 hover:text-gray-800 text-gray-500" href="/signup">Prova la demo</a>
+                    <a className="rounded-full mx-auto max-w-fit border px-5 py-2 text-sm font-medium shadow-sm transition-all hover:ring-4 hover:ring-gray-200 disabled:bg-gray-100 disabled:text-gray-500 disabled:cursor-not-allowed disabled:hover:ring-0 disabled:border-gray-200 border-gray-200 bg-white hover:border-gray-400 hover:text-gray-800 text-gray-500" href="/demo">Prova la demo</a>
                 </div>
             </div>
 

@@ -1,5 +1,7 @@
 import Cal, { getCalApi } from "@calcom/embed-react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import GridPattern from "@/Components/ui/grid-pattern";
+import {cn} from "@/lib/utils";
 
 export default function Demo() {
     useEffect(()=>{
@@ -9,15 +11,29 @@ export default function Demo() {
         })();
     }, [])
     return (
+    <div>
+        <div className="relative mx-auto w-full max-w-[670px] py-20 pb-16 text-center max-[670px]:px-2">
 
-    <div className="w-full pt-10 md:pt-20 pb-52 text-center px-4 md:px-44">
-        <h1 className="max-w-lg sm:max-w-2xl mx-auto mb-10 font-display text-4xl font-extrabold leading-[1.15] text-black sm:text-5xl sm:leading-[1.05]">Solo
-            <span className="bg-gradient-to-r from-[#956AFF] via-[#D76D77] to-[#fc5713] bg-clip-text text-transparent"> 15 minuti </span>
-            per scoprire come migliorare le tue operazioni.
-        </h1>
+            <GridPattern
+                width={30}
+                height={30}
+                x={-1}
+                y={-1}
+                className={cn(
+                    "z-[-1] absolute top-0 left-0 opacity-75 [mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+                )}
+            />
 
-        <div className="rounded-xl p-1 md:p-2 shadow-sm ring-1 ring-black/5">
-            <div className="border rounded-lg">
+            <p className="uppercase text-base text-gray-600 font-mono font-medium">Inizia Ora</p>
+            {/* Title */}
+            <h2 className="font-display text-4xl sm:text-5xl font-bold leading-[1.15] mb-16">
+                20 minuti per scoprire come
+                <br />
+                <span className="bg-gradient-to-r from-[#956AFF] via-[#D76D77] to-[#fc5713] bg-clip-text text-transparent"> migliorare le tue operazioni</span>
+                .
+            </h2>
+        </div>
+            <div className="rounded-lg border max-w-6xl mx-4 lg:mx-auto">
                 <Cal namespace="demo"
                      calLink="giacomo-barilari/demo"
                      style={{width:"100%",height:"100%",overflow:"scroll"}}
@@ -25,8 +41,9 @@ export default function Demo() {
                      className="rounded-lg"
                 />
             </div>
-        </div>
+
 
     </div>
+
     );
 };
