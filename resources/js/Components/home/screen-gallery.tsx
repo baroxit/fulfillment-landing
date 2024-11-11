@@ -12,6 +12,7 @@ const ScreenGallery = () => {
         { id: "giacenza", src: "images/giacenza.png", alt: "Giacenza", text:"Giacenza", icon:""},
         { id: "spedizioni", src: "images/spedizioni.png", alt: "Spedizioni", text:"Spedizioni", icon:""},
         { id: "operazioni", src: "images/operazioni.png", alt: "Operazioni", text:"Operazioni", icon:""},
+        { id: "imballo", src: "images/imballo.png", alt: "Imballo", text:"Imballo", icon:""},
         { id: "pianifica", src: "images/pianifica.png", alt: "Pianifica", text:"Pianifica", icon:""},
     ];
 
